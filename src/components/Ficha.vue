@@ -6,7 +6,9 @@
         </button>
         <div class="estrellas">
             <span v-for="index in cosa.nota" :key="index">
-                <img src="https://www.html6.es/img/estrella.png" alt="">
+                <!-- <img src="https://www.html6.es/img/estrella.png" alt=""> -->
+
+                <img src="@/assets/Leo.jpg" alt="">
             </span>
         </div>
         <button @click="incrementarNota(cosa.nota,index)">+</button>

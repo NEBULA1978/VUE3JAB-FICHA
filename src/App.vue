@@ -23,6 +23,7 @@ const retorno=(a,i)=>{
     cosas.value[i].nota=a+1;
   }
 }
+
 </script>
 
 
